@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color:  white;
+background-color: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+	
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1022%26quot%3b)' fill='none'%3e%3cpath d='M1209.5 1192.73C1355.15 1128.61 1227.94 720.71 1572.32 669.69 1916.71 618.67 2097.22 332.77 2297.97 324.09' stroke='rgba(27%2c 27%2c 27%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M697.91 1213.28C884.58 1105.6 794.99 469.62 1129.1 466.89 1463.21 464.16 1752.94 867 1991.48 877.29' stroke='rgba(27%2c 27%2c 27%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1033.67 1234.03C1277.69 1100.75 1298.08 288.81 1606.13 280.48 1914.19 272.15 1992 744.3 2178.6 777.28' stroke='rgba(27%2c 27%2c 27%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M800.72 1226.46C922.12 1207.25 840.32 947.28 1180.32 914 1520.31 880.72 1720.36 486.99 1939.51 471.2' stroke='rgba(27%2c 27%2c 27%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1026.51 1225.26C1187.7 1097.25 1096.22 480.89 1366.99 475.64 1637.77 470.39 1852.38 851.07 2047.96 864.44' stroke='rgba(27%2c 27%2c 27%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1022'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e")
+}
+a{
+	color: black;
+	text-decoration: none;
+
+}
+header{
+	 font-family: 'Fredoka', sans-serif;
+	font-weight: 900;
+	color: white;
+	text-decoration-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 10%;
+	background: rgba(1, 1, 1, 0.26)
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(1, 1, 1, 0.17);
+
+	background-color: black;
+
+}
+.aside{
+	font-family: 'Fredoka', sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	position: absolute;
+	right: 15em;
+	bottom: 400px;
+}
+.sec2{
+	position: absolute;
+	font-size: 16px;
+	font-weight: lighter;
+	color: black;
+	background-color: transparent;
+}
+.idbag{
+	position: absolute;
+	left: 17em;
+	top: -4em;
+	background-color: transparent;
+}
+.igid{
+	height: 40px;
+	width: 40px;
+	margin-bottom: -0.5em;
+}
+.waid{
+	height: 40px;
+	width: 40px;
+	margin-bottom: -0.5em;
+}
+.phoneid{
+height: 40px;
+	width: 40px;
+	margin-bottom: -0.5em;
+
+}
+.idzig{
+	position: absolute;
+	left: -11em;
+	top: -5em;
+	background-color: transparent;
+	transform: rotate(-45deg);
+		}
+/* From cssbuttons.io by @alexmaracinaru */
+.cta {
+ border: none;
+ background: none;
+
+}
+
+.cta span {
+ padding-bottom: 7px;
+ letter-spacing: 4px;
+ font-size: 16px;
+ padding-right: 15px;
+ text-transform: uppercase;
+ font-family: 'Fredoka', sans-serif;
+}
+
+.cta svg {
+ transform: translateX(-8px);
+ transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+ transform: translateX(0);
+}
+
+.cta:active svg {
+ transform: scale(0.9);
+}
+
+.hover-underline-animation {
+ position: relative;
+ color: black;
+ padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+ content: "";
+ position: absolute;
+ width: 100%;
+ transform: scaleX(0);
+ height: 1.5px;
+ bottom: 0;
+ left: 0;
+ background-color: #000000;
+ transform-origin: bottom right;
+ transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+ transform: scaleX(1);
+ transform-origin: bottom left;
+}
+.picsart{
+
+	position: absolute;
+	left: 80px;
+
+}
+
+.yes{
+	left: 120px;
+	transform: rotate(20deg);
+	margin-bottom: 0px;
+	position: absolute;
+	background-color: transparent;
+}
+.nav__link a,
+.cta,
+.overlay__content a {
+	 font-family: 'Fredoka', sans-serif;
+	font-weight: 900;
+	text-decoration:none;
+	color: white;
+	background-color: black;
+	flex-direction: row;
+
+}
+.root{
+	top: 9.5px;
+	left: 120px;
+	margin-bottom: 0px;
+	position: absolute;
+	background-color: transparent;
+}
+.nav__link{
+	list-style: none;
+	display: flex;
+	background-color: black;
+	flex-direction: row;
+
+}
+
+.nav__link li{
+	padding: 0px 20px;
+		background-color: black;
+		flex-direction: row;
+}
+
+
+
+
+
+footer{
+	bottom: 0%;
+	left: 40%;
+	width: 100%;
+	position: absolute;
+
+}
+body {
+  color: #606c76;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.0em;
+  font-weight: 300;
+  letter-spacing: .01em;
+}
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.arrow {
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+}
+.arrow p{
+  color: white; 
+  font-size: 12px;
+  margin: 0 0 8px;
+}
+.arrow a {
+  color: white; 
+  text-decoration: none;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+.box {
+  max-width: 550px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.2)
+}
+p {
+  margin: 0 0 20px;
+}

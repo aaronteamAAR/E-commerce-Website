@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1022%26quot%3b)' fill='none'%3e%3cpath d='M1209.5 1192.73C1355.15 1128.61 1227.94 720.71 1572.32 669.69 1916.71 618.67 2097.22 332.77 2297.97 324.09' stroke='rgba(27%2c 27%2c 27%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M697.91 1213.28C884.58 1105.6 794.99 469.62 1129.1 466.89 1463.21 464.16 1752.94 867 1991.48 877.29' stroke='rgba(27%2c 27%2c 27%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1033.67 1234.03C1277.69 1100.75 1298.08 288.81 1606.13 280.48 1914.19 272.15 1992 744.3 2178.6 777.28' stroke='rgba(27%2c 27%2c 27%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M800.72 1226.46C922.12 1207.25 840.32 947.28 1180.32 914 1520.31 880.72 1720.36 486.99 1939.51 471.2' stroke='rgba(27%2c 27%2c 27%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1026.51 1225.26C1187.7 1097.25 1096.22 480.89 1366.99 475.64 1637.77 470.39 1852.38 851.07 2047.96 864.44' stroke='rgba(27%2c 27%2c 27%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1022'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e")
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .background {
+    padding: 0 25px 25px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .background::after {
+    content: '';
+    background-image: linear-gradient(to bottom, #0f0311, #0c0c16, #0b1218, #0f1719, #151a1a, #161a1a, #181b1a, #191b1a, #161818, #141616, #121213, #0f0f0f);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9ff', endColorstr='#4394f4',GradientType=0 );
+    height: 350px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  @media (min-width: 900px) {
+    .background {
+      padding: 0 0 25px;
+    }
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 50px 0 0;
+    max-width: 960px;
+    width: 100%;
+  }
+  
+  .panel {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .pricing-table {
+    box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 900px) {
+    .pricing-table {
+      flex-direction: row;
+    }
+  }
+  
+  .pricing-table * {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .pricing-plan {
+    border-bottom: 1px solid #e1f1ff;
+    padding: 25px;
+  }
+  
+  .pricing-plan:last-child {
+    border-bottom: none;
+  }
+  
+  @media (min-width: 900px) {
+    .pricing-plan {
+      border-bottom: none;
+      border-right: 1px solid #e1f1ff;
+      flex-basis: 100%;
+      padding: 25px 50px;
+    }
+  
+    .pricing-plan:last-child {
+      border-right: none;
+    }
+  }
+  
+  .pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
+  }
+  
+  .pricing-header {
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .pricing-features {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 50px 0 25px;
+  }
+  
+  .pricing-features-item {
+    border-top: 1px solid #e1f1ff;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+  }
+  
+  .pricing-features-item:last-child {
+    border-bottom: 1px solid #e1f1ff;
+  }
+  
+  .pricing-price {
+    color: black;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .pricing-button {
+    border: 1px solid #242324;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    margin: 25px 0;
+    padding: 15px 35px;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .pricing-button:hover,
+  .pricing-button:focus {
+    background-color: #e1f1ff;
+  }
+  
+  .pricing-button.is-featured {
+    background-color: #0f0f0f;
+    color: #fff;
+  }
+  
+  .pricing-button.is-featured:hover,
+  .pricing-button.is-featured:active {
+    background-color: #19191a;
+  }
